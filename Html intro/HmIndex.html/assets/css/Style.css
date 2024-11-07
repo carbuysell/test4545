@@ -1,19 +1,23 @@
-.border{
+.border {
     border: solid 2px black;
     height: 600px;
     width: 1200px;
     margin: auto;
     text-align: center;
+    background-color: #dddedf;
 }
-.border .girl{
+
+.border .girl {
     border: solid 1px black;
-    height: 290px;
+    height: 310px;
     width: 260px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 65px;
     box-shadow: 0px 0px 5px 0px;
+    background-color: white ;
 }
-.girl .circle{
+
+.girl .circle {
     border: solid 2px black;
     height: 75px;
     width: 75px;
@@ -23,7 +27,8 @@
     bottom: 20px;
     src: url(https://www.shutterstock.com/image-photo/happy-young-red-haired-woman-260nw-1909593163.jpg);
 }
-.image_girl{
+
+.image_girl {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
@@ -32,12 +37,14 @@
     position: relative;
     top: 0px;
 }
-.image_girl img{
+
+.image_girl img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.boy1{
+
+.boy1 {
     border: solid 1px black;
     height: 265px;
     width: 240px;
@@ -45,9 +52,11 @@
     margin-top: 100px;
     position: relative;
     right: 320px;
-    bottom: 320px;
+    bottom: 340px;
+    background-color: white;
 }
-.boy1 .circle2{
+
+.boy1 .circle2 {
     border: solid 2px black;
     height: 75px;
     width: 75px;
@@ -57,7 +66,8 @@
     bottom: 20px;
     src: url(https://media.istockphoto.com/id/1361217779/photo/portrait-of-happy-teenage-boy-at-park.jpg?s=612x612&w=0&k=20&c=yGHZLPu6UWwoj2wazbbepxmjl29MS1Hr2jV3N0FzjyI=);
 }
-.image_boy1{
+
+.image_boy1 {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
@@ -66,12 +76,14 @@
     position: relative;
     top: 0px;
 }
-.image_boy1 img{
+
+.image_boy1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.boy2{
+
+.boy2 {
     border: solid 1px black;
     height: 265px;
     width: 240px;
@@ -79,9 +91,11 @@
     margin-top: 100px;
     position: relative;
     left: 640px;
-    bottom: 340px;
+    bottom: 367px;
+    background-color: white;
 }
-.boy2 .circle3{
+
+.boy2 .circle3 {
     border: solid 2px black;
     height: 75px;
     width: 75px;
@@ -91,7 +105,8 @@
     bottom: 20px;
     src: url();
 }
-.image_boy2{
+
+.image_boy2 {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
@@ -100,11 +115,47 @@
     position: relative;
     top: 0px;
 }
-.image_boy2 img{
+
+.image_boy2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-
+.border .left {
+    border: solid 2px black;
+    height: 19px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 0px;
+    position: relative;
+    top: 340px;
+    left: 90px;
+    background-color: white;
+}   
+.border .right{
+    border: solid 2px black;
+    height: 19px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 0px;
+    position: relative;
+    top:320px;
+    right:-1080px;  
+    background-color: white;
+}
+.girl .quote_left{
+    position: relative;
+    right: 65px;
+}
+.girl .quote_right{
+    position: relative;
+    left: 85px;
+}
+.text_2{
+    position: relative;
+    top: 750px;
+    left: 47%;
+    font-family: "Roboto Mono", monospace;
+}
 
