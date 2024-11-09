@@ -147,6 +147,10 @@ a{
 .link{
     text-decoration: none;
 }
+::placeholder{
+    position: relative;
+    right: 50px;
+}
 
 
 
